@@ -1,0 +1,2 @@
+description = "cleanup and restore original RevPi OS configuration"
+priority = -800_000

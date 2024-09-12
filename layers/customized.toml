@@ -1,0 +1,28 @@
+parent = "revpi-bookworm"
+
+# Include recipes for the custom image.
+recipes = [
+    # Prepares the Raspberry Pi base image for usage with Rugpi.
+    "core/rpi-raspios-setup",
+    # Sets a static hostname (see parameters below).
+    "core/set-hostname",
+    # Persists the home directory of the root user.
+    "core/persist-root-home",
+    # Configure SSH.
+    "core/ssh",
+    # Some RevPi OS specific customizations.
+    "revpi-prepare",
+]
+
+[parameters."core/set-hostname"]
+hostname = "rugpi-revpi"
+
+[parameters."core/pkg-cleanup"]
+autoremove = true
+
+[parameters."core/ssh"]
+root_authorized_keys = """
+"""
+
+[parameters."core/rugpi-ctrl"]
+rugpi_admin = true  # Enable Rugpi Admin.
