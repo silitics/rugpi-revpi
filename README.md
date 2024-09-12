@@ -5,7 +5,7 @@ This is an example for building bespoke variants of *RevPi Bookworm* with [Rugpi
 > [!WARNING]  
 > This is only a proof of concept, do not use in production! To get a fully functional setup, a deeper integration with RevPi is necessary. In particular, Rugpi must be appropriately configured to preserve all relevant configuration files.
 
-To learn more about Rugpi, checkout <https://rugpi.io>. Rugpi allows you to build bespoke variants of popular Linux distributions and comes with a robust over-the-air system update mechanism, specially developed for Raspberry Pi. In particular, checkout the [User Guide](https://oss.silitics.com/rugpi/docs/guide/) to learn how to apply customizations.
+To learn more about Rugpi, check out <https://rugpi.io>. Rugpi allows you to build bespoke variants of popular Linux distributions and comes with a robust over-the-air system update mechanism, specially developed for Raspberry Pi. In particular, check out the [User Guide](https://oss.silitics.com/rugpi/docs/guide/) to learn how to apply customizations.
 
 
 ## Instructions
